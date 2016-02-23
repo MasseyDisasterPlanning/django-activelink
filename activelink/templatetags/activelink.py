@@ -1,7 +1,7 @@
 from django.template import Library, Node, NodeList, VariableDoesNotExist
 from django.core.urlresolvers import NoReverseMatch
 try:
-    from django.templatetags.defaulttags import url
+    from django.template.defaulttags import url
 except:
     from django.templatetags.future import url
 from django.template.defaulttags import TemplateIfParser
